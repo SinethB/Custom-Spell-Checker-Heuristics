@@ -5,8 +5,11 @@ This project implements and compares two spell-checking algorithms in Python, ap
 ## Project Overview
 
 This repository includes:
-- **Original FuzzyWuzzy-Based Spell Checker:** Uses the FuzzyWuzzy library, which leverages the Levenshtein Distance to provide a similarity index (score) between 0 and 100.
-- **Custom Heuristic Spell Checker:** Designed with a unique scoring system to evaluate and suggest word corrections more accurately. This heuristic considers factors like sequence similarity, first-letter match, length similarity, and shared characters to achieve better accuracy and relevance in word suggestions.
+- **Original FuzzyWuzzy-Based Spell Checker:**
+  Uses the FuzzyWuzzy library, which leverages the Levenshtein Distance to provide a similarity index (score) between 0 and 100.
+  
+- **Custom Heuristic Spell Checker:**
+  Designed with a unique scoring system to evaluate and suggest word corrections more accurately. This heuristic considers factors like sequence similarity, first-letter match, length similarity, and shared characters to achieve better accuracy and relevance in word suggestions.
 
 The project satisfies the following tasks:
 1. **Apply Artificial Intelligence Techniques:** By developing and comparing two spell-checking algorithms.
@@ -41,7 +44,7 @@ Output screenshots and metrics comparisons can be found in the `output.pdf` file
 ## How to Run
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/Custom-Spell-Checker-Heuristics.git
+    git clone  https://github.com/SinethB/Custom-Spell-Checker-Heuristics.git
     cd Custom-Spell-Checker-Heuristics
     ```
 
